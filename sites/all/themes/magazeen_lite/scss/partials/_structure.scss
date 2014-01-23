@@ -1,0 +1,34 @@
+
+/* 02 - MAIN STRUCTURE
+/* ----------------------------------------------*/
+
+.container { width: 100%; max-width: $main-max-width; margin: 0 auto; height:auto; padding:0; }
+
+/* Columns
+/* -------------- */
+
+.main { 
+	width:600px; 
+	@media (max-width:620px)
+	{
+		width:percentage(600/620);
+	}
+}
+
+.right { width:percentage(340px/$main-max-width); }
+
+.main, .left { float:left; }
+
+.right { float:right;}
+
+
+/* Clearfix
+/* -------------- */
+
+.clearfix:after { content: " "; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+
+.clearfix { display: inline-block; }
+
+html[xmlns] .clearfix { display: block; }
+
+* html .clearfix { height: 1%; }

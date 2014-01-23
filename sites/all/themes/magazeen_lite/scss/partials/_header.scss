@@ -1,0 +1,93 @@
+
+
+/* 03 - HEADER
+/* ----------------------------------------------*/
+
+#header {
+	margin:0; padding:0;
+	width:auto; 
+	background:#171615 url(images/header.gif) repeat-x top center;
+	border-bottom:1px solid #4a4d4c;
+	clear:both;
+	@media (max-width:$main-max-width)
+	{
+		padding: 0 1.5%;
+	}
+}
+
+#logo {
+	margin:0; padding:50px 0 15px 0;
+	width:percentage(580px/$main-max-width); height:auto;
+	background:url(images/header-shade.gif) no-repeat top right;
+	float:left;
+
+	@extend %breakpoint-full-width;
+
+}
+
+#searchform-header { 
+	margin:78px 20px 0 0; width:percentage(284px/$main-max-width); height:auto; float:right; background:no-repeat scroll right top transparent;
+
+	@extend %breakpoint-full-width;
+
+	.form-submit{
+		background:transparent /*url(images/search.gif)*/ no-repeat  right top;
+		border:0 none;
+		color:#ffffff;
+		cursor:pointer;
+		font-family:Helvetica,Arial,sans-serif;
+		font-size:122%;
+		font-weight:bold;
+		margin:0 0 0 12px;
+		width:72px;
+	}
+
+	.form-item {display:inline;}
+}
+
+input#edit-search-block-form--2 {
+	background:#FDFEFE url(images/searchform-back.gif) no-repeat  left top;
+	border:0 none;
+	color:#AEA592;
+	float:left;
+	font-size:0.92em;
+	height:auto;
+	margin:0;
+	padding:6px 10px 5px 25px;
+	width:165px;
+}
+
+
+
+
+img#logo-image {padding:0 10px 0 0;}
+
+/* Navigation
+/* -------------- */
+#navigation {
+	margin:0; padding:0;
+	background:#FFF url(images/navigation.gif) repeat-x bottom center;
+	border-top:2px solid #393b3b; border-bottom:1px solid #FFF; 
+
+	ul.links {
+		margin:0 auto; padding:0;
+		width:880px; height:auto;
+		list-style:none; float:left;
+	}
+
+	ul li {
+		margin:0 3px; padding:0;
+		float:left; overflow:visible;
+	}
+}
+
+
+#block-user-login
+{
+	min-width:170px;
+
+	input[type=password], input[type=text]
+	{
+		width: 98%;
+	}
+}

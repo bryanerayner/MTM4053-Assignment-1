@@ -1,0 +1,62 @@
+
+/* 07 - FOOTER
+/* ----------------------------------------------*/
+
+#footer {
+	margin:0; padding:30px 0;
+	width:auto; height:auto;
+	background:#171615 url(images/footer-stroke.gif) repeat-x top center;
+	border-top:1px solid #171615; border-bottom:1px solid #1e1d1d;
+	color:#B2B2B2;
+}
+
+#footer-message { color:#ffffff; padding:0; font-family:Verdana, Arial, Helvetica, sans-serif; padding:10px 0;}
+
+.footer-divider { background:url("images/footer-divider.gif") repeat-y scroll left top transparent; }
+
+#footer-left { float:left; height:auto; margin:0; padding:0; width:305px; }
+
+#footer-right { float:right; height:auto; margin:0; padding:0 0 0 50px; width:585px; }
+
+#link-back { margin:0; padding:15px 0; background:#0c0b0b; }
+
+a.smashing:link, a.smashing:active, a.smashing:visited, a.smashing:hover, a.function:link, 
+a.function:active, a.function:visited, a.function:hover, a.drupalizing:link, a.drupalizing:active, 
+a.drupalizing:visited, a.drupalizing:hover {
+	background:url("images/footer-logo-smashing.png") no-repeat scroll center top transparent;
+	display:block;
+	float:left;
+	height:54px;
+	margin:0; padding:0;
+	outline:0 none;
+	text-indent:-9999px;
+	width:154px;
+}
+
+a.function:link, a.function:active, a.function:visited, a.function:hover {
+	background:url("images/footer-logo-function.png") no-repeat scroll center top transparent;
+	width:128px;
+}
+
+a.drupalizing:link, a.drupalizing:active, a.drupalizing:visited, a.drupalizing:hover {
+	background:url("images/footer-logo-drupalizing.png") no-repeat scroll center top transparent;
+}
+
+#snavigation {clear:both; padding:10px 0; border-top:1px solid #1E1D1D; border-bottom:1px solid #1E1D1D; background-color:#171615;}
+
+ul.secondary-menu { padding:0; }
+
+ul.secondary-menu li { display: inline; list-style-type: none; padding: 0 0.5em;}
+
+#snavigation li a.active { color:#f23183; }
+
+ul.slinks {
+    margin: 0;
+    padding: 0;
+}
+
+ul.slinks li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 0.5em;
+}

@@ -9,16 +9,16 @@
 .slideshow  { background:transparent url("images/slide-shadow.png") no-repeat scroll center bottom; padding:10px 0 50px 0; }
 
 /*--Main Container--*/
-.main_view { float: left; position: relative; }
+.main_view { float: left; position: relative; width:100%; height:100%;}
 
 /*--Window/Masking Styles--*/
 .window {
-	height:330px;	width: 840px;
+	height:percentage(330/840);	width: percentage(840/940);
 	overflow: hidden; /*--Hides anything outside of the set width/height--*/
 	position: relative;
 	border:6px solid #ffffff;
 }
-.image_reel { position: absolute; top: 0; left:0; float:left; }
+.image_reel { position: absolute; top: 0; left:0; float:left; width:100%; height:100%;}
 
 .image_reel img {float: left; }
 /*--Paging Styles--*/

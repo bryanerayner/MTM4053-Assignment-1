@@ -43,17 +43,18 @@ div.status { color: #360; background: #cf8; border-color: #be7; }
 
 
 
-%breakpoint-full-width{
+@mixin breakpoint-full-width{
 	@media (max-width:$breakpoint-full-width)
 	{
 		float:left;
 		width: 100%;
 	}
 }
-%breakpoint-full-width--right{
+@mixin breakpoint-full-width--right{
 	@media (max-width:$breakpoint-full-width)
 	{
 		float:right;
 		width: 100%;
 	}
 }
+

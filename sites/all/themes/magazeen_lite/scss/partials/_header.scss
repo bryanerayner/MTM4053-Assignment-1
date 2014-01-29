@@ -14,21 +14,21 @@
 		padding: 0 1.5%;
 	}
 }
-
+      
 #logo {
 	margin:0; padding:50px 0 15px 0;
 	width:percentage(580px/$main-max-width); height:auto;
 	background:url(images/header-shade.gif) no-repeat top right;
 	float:left;
 
-	@extend %breakpoint-full-width;
+	@include breakpoint-full-width;
 
 }
 
 #searchform-header { 
 	margin:78px 20px 0 0; width:percentage(284px/$main-max-width); height:auto; float:right; background:no-repeat scroll right top transparent;
 
-	@extend %breakpoint-full-width;
+	@include breakpoint-full-width;
 
 	.form-submit{
 		background:transparent /*url(images/search.gif)*/ no-repeat  right top;
@@ -71,7 +71,7 @@ img#logo-image {padding:0 10px 0 0;}
 
 	ul.links {
 		margin:0 auto; padding:0;
-		width:880px; height:auto;
+		width:percentage(880/940); height:auto;
 		list-style:none; float:left;
 	}
 

@@ -53,11 +53,11 @@ padding:20px 40px ;
 
 .comment_forbidden { 
 	font:bold italic 1.17em Georgia, "Times New Roman", Times, serif; 
-	@extend %breakpoint-full-width;
+	@include breakpoint-full-width;
 }
 
 .comment-comments
 {
-		@extend %breakpoint-full-width;
+		@include breakpoint-full-width;
 
 }

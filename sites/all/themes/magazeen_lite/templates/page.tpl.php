@@ -37,26 +37,22 @@
 
 <!-- ______________________ SLIDESHOW _______________________ -->
 
-<div id="slideshow"><!-- slideshow -->
-  <div class="slideshow container clearfix">
-    <div class="force-previous"><a href="#">Previous</a></div>
-    <div class="main_view">
-      <div class="window">
-        <div class="image_reel">
-            <a href="#"><img src="<?php print base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide3.jpg" alt="" /></a>
-            <a href="#"><img src="<?php print base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide1.jpg" alt="" /></a>
-            <a href="#"><img src="<?php print base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide2.jpg" alt="" /></a>
-        </div>
-      </div>
-      <div class="paging">
-        <a href="#" rel="1">1</a>
-        <a href="#" rel="2">2</a>
-        <a href="#" rel="3">3</a>
-      </div>
-    </div>
-    <div class="force-next"><a href="#">Next</a></div>
-  </div> <!-- /slideshow-container -->
-</div> <!-- /slideshow -->
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <a href="#"><img src="<?php print base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide3.jpg" alt="" /></a>
+    </li>
+    <li>
+      <a href="#"><img src="<?php print base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide1.jpg" alt="" /></a>
+    </li>
+    <li>
+      <a href="#"><img src="<?php print base_path() . drupal_get_path('theme', 'magazeenlite')?>/images/slideshow/slide2.jpg" alt="" /></a>
+    </li>
+  </ul>
+</div>
+            
+            
+            
 
 <!-- ______________________ MAIN _______________________ -->
 
@@ -141,3 +137,8 @@
     </div>
   </div> <!-- /link-back-container -->
 </div> <!-- /link-back -->
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src = "<?php print base_path() . drupal_get_path('theme', 'magazeenlite')?>/js/jquery.flexslider.min.js" type="text/javascript"></script>
+<script src = "<?php print base_path() . drupal_get_path('theme', 'magazeenlite')?>/js/theme.js" type="text/javascript"></script>
